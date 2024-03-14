@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Staatliches} from "next/font/google";
 import "./globals.css";
+import { Navbar } from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const staatliches = Staatliches({ 
+  weight: "400",
+  subsets: ["latin"] 
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +22,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={staatliches.className + " flex flex-col items-center min-h-screen border bg-[url('/background.png')] bg-cover"}>
+        <Navbar />
+        <div className="flex flex-col container">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
