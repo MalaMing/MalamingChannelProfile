@@ -7,31 +7,38 @@ export const Navbar = () => {
     const navItems = [
         {
             title: "HOME",
-            link: "/home"
+            link: "/home",
+            isShow: true
         },
         {
             title: "ABOUT",
-            link: "/about"
+            link: "/about",
+            isShow: true
         },
         {
             title: "DONATE",
-            link: "/donate"
+            link: "/donate",
+            isShow: true
         },
         {
             title: "PRODUCT",
-            link: "/product"
+            link: "/product",
+            isShow: false
         },
         {
             title: "FANART",
-            link: "/fanart"
+            link: "/fanart",
+            isShow: true
         },
         {
             title: "CONTACT",
-            link: "/contact"
+            link: "/contact",
+            isShow: true
         },
         {
             title: "ASSOC. COMPANY",
-            link: "/assoc-company"
+            link: "/assoc-company",
+            isShow: true
         }
     ]
     return (
@@ -43,10 +50,10 @@ export const Navbar = () => {
                         @Malaming
                     </Link>
                 </div>
-                <div className="flex justify-end items-center w-full">
-                    <ul className="flex flex-row gap-4">
+                <div className="flex justify-end items-center w-full ">
+                    <ul className="flex flex-row gap-6 max-lg:hidden">
                         {navItems.map((item, index) => {
-                            return (
+                            if (item.isShow) return (
                                 <li key={index} className="flex">
                                     <Link href={item.link} className="text-3xl text-[#6C4964]">
                                         {item.title}
