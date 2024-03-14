@@ -23,13 +23,13 @@ export default function Home() {
             
             <Icon className="shadow-lg rounded-full" icon="akar-icons:facebook-fill" width="50" height="50"  style={{color: "#636880"}} />
             
-            <div className="flex rounded-full  w-[50px] h-[50px] items-center justify-center bg-gradient-to-t from-[#FF9B7E] to-[#faa891] shadow-lg">
+            <div className="flex rounded-full  w-[50px] h-[50px] items-center justify-center bg-gradient-to-t from-[#FF9B7E] to-[#e48e8c] shadow-lg">
               <Icon icon="akar-icons:instagram-fill" width="31" height="31"  style={{color: "#FFFFFF"}} />
             </div>
 
             <Icon className="shadow-lg rounded-full" icon="entypo-social:youtube-with-circle" width="50" height="50"  style={{color: "#636880"}} />
             
-            <div className="flex rounded-full  w-[50px] h-[50px] items-center justify-center bg-gradient-to-t from-[#FF9B7E] to-[#faa891] shadow-lg">
+            <div className="flex rounded-full  w-[50px] h-[50px] items-center justify-center bg-gradient-to-b from-[#FF9B7E] to-[#e48e8c] shadow-lg">
               <Icon className="flex" icon="akar-icons:twitch-fill" width="31" height="31"  style={{color: "#FFFFFF"}}/>
             </div>
 
