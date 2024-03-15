@@ -1,3 +1,5 @@
+<h1> ยังไม่ได้ทำหน้าสำหรับมือถือ </h1>
+
 <h1> MalamingProfile  </h1>
 เป็นเว็บแสดงข้อมูลช่อง Malaming ใน Youtube, Facebook และ Twitch เพื่อให้คนที่ติดตามเข้ามาดูผลงานและโปรไฟล์ต่างๆของเรา
 
@@ -10,12 +12,23 @@
 <h3> CONTACT </h3> - แสดงช่องทางการติดต่องาน
 <h3> ASSOCIATED COMAPANY </h3> - บริษัทและช่องในเครือที่ทุกคนอาจสามารถติดตามได้
 
-<h2> ช่องทางการติดต่อ  </h2>
-<h3> Youtube </h3> - [@Malaming](https://www.youtube.com/channel/UCXt-b_KolC6S4X7deJRhUtg)
-<h3> Instagram </h3> - [@Malaming](https://instagram.com/mingmmie)
-<h3> Facebook </h3> - [@Malaming](https://facebook.com/MalaMingz)
-<h3> Twitch </h3> - [@Malaming](https://twitch.tv/malamingz)
+<h2> ช่องทางการติดต่อ </h2>
+<h3> Youtube </h3> 
+
+- [@Malaming](https://www.youtube.com/channel/UCXt-b_KolC6S4X7deJRhUtg)
+<h3> Instagram </h3>
+
+- [@Malaming](https://instagram.com/mingmmie)
+
+<h3> Facebook </h3> 
+
+- [@Malaming](https://facebook.com/MalaMingz)
+
+<h3> Twitch </h3>
+
+- [@Malaming](https://twitch.tv/malamingz)
+
 
 <h2> Credit  </h2>
-<h3> UXUI </h3> by  [@Malaming](https://github.com/MalaMing)
-<h3> Coding </h3> by [@Malaming](https://github.com/MalaMing), [@HomieZ](https://github.com/Homiez09)
+
+Make by [@Malaming](https://github.com/MalaMing), [@Homiez](https://github.com/Homiez09)
