@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { Icon } from "@iconify/react";
 
-export default function Home() {
+export default () => {
   const profile = {
     title: "MALAMING",
     description: "GAME, VLOG, REVIEW, PROGRAMMING",
@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className="flex self-center w-full h-[80vh] items-center">
         <div className="flex flex-col items-center w-full">
-          <div className="mb-10 self-center items-center justify-center">
+          <div className="mb-10 self-center items-center justify-center relative">
             <Image 
               src="https://yt3.googleusercontent.com/ytc/AIdro_ml8aoFNxfb9ErORmPPwm7mtvUdo3ySmS6q6vnAwsw=s176-c-k-c0x00ffffff-no-rj" 
               className="rounded-full" 
